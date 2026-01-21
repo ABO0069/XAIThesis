@@ -1,0 +1,20 @@
+# Ignore the virtual environment
+.venv/
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore huge datasets (GitHub rejects files >100MB)
+*.csv
+*.xlsx
+
+# Ignore saved models (Optional: Remove these lines if you WANT to back up your models)
+*.pkl
+*.h5
+*.keras
+
+# Ignore VS Code settings
+.vscode/

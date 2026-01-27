@@ -1,0 +1,78 @@
+====================================================================================================
+COUNTERFACTUAL INTERVENTION PATHWAYS - DETAILED REPORT
+====================================================================================================
+
+
+CF2 | Priority: 1 | Feasibility: High | Clinical Impact: High
+----------------------------------------------------------------------------------------------------
+
+  Target: Diastolic Bp
+  Change Required: 114.0 → 107.0 (-6%)
+  Intervention: Blood Pressure Management
+  Clinical Methods:
+    - ACE inhibitors or ARBs
+    - Sodium restriction
+    - Stress management
+  Difficulty: Low | Timeframe: 1-3 months | Impact: High
+
+  Target: Hypertensive
+  Change Required: Yes → No
+  Intervention: Hypertension Treatment
+  Clinical Methods:
+    - Antihypertensive medication
+    - Lifestyle modifications
+    - Regular follow-up
+  Difficulty: Moderate | Timeframe: 3-6 months | Impact: High
+
+CF3 | Priority: 1 | Feasibility: High | Clinical Impact: High
+----------------------------------------------------------------------------------------------------
+
+  Target: Bmi
+  Change Required: 28.9 → 23.9 (-17%)
+  Intervention: Weight Management Program
+  Clinical Methods:
+    - Structured diet plan
+    - Exercise regimen
+    - Weight tracking
+  Difficulty: Moderate | Timeframe: 3-6 months | Impact: Moderate
+
+  Target: Hypertensive
+  Change Required: Yes → No
+  Intervention: Hypertension Treatment
+  Clinical Methods:
+    - Antihypertensive medication
+    - Lifestyle modifications
+    - Regular follow-up
+  Difficulty: Moderate | Timeframe: 3-6 months | Impact: High
+
+CF1 | Priority: 2 | Feasibility: Moderate | Clinical Impact: High
+----------------------------------------------------------------------------------------------------
+
+  Target: Diastolic Bp
+  Change Required: 114.0 → 82.0 (-28%)
+  Intervention: Blood Pressure Management
+  Clinical Methods:
+    - ACE inhibitors or ARBs
+    - Sodium restriction
+    - Stress management
+  Difficulty: Moderate | Timeframe: 6-12 months | Impact: High
+
+  Target: Weight
+  Change Required: 57.4 → 29.3 (-49%)
+  Intervention: Weight Management Program
+  Clinical Methods:
+    - Caloric restriction (500-750 kcal/day deficit)
+    - Regular physical activity (150 min/week)
+    - Behavioral counseling
+  Difficulty: High | Timeframe: 12+ months | Impact: Moderate
+
+====================================================================================================
+CLINICAL INTERPRETATION & RECOMMENDATIONS
+====================================================================================================
+
+Recommended Clinical Pathway:
+  Pathway: CF2
+  Priority Level: 1
+  Overall Feasibility: High
+  Expected Impact: High
+  Number of Interventions: 2

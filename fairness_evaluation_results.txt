@@ -1,0 +1,78 @@
+
+Fairness Analysis Across Demographic Groups:
+================================================================================
+
+Random Forest:
+--------------------------------------------------------------------------------
+
+   Gender Analysis:
+    Group 0      | Acc: 0.938 | Prec: 0.500 | Recall: 0.510 | n=788
+    Group 1      | Acc: 0.880 | Prec: 0.214 | Recall: 0.300 | n=300
+    Disparate Impact Ratio: 1.066 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+   Age Analysis:
+    Middle       | Acc: 0.903 | Prec: 0.453 | Recall: 0.462 | n=590
+    Old          | Acc: 0.871 | Prec: 0.188 | Recall: 0.333 | n=147
+    Young        | Acc: 0.974 | Prec: 0.444 | Recall: 0.500 | n=351
+    Disparate Impact Ratio: 0.927 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+XGBoost:
+--------------------------------------------------------------------------------
+
+   Gender Analysis:
+    Group 0      | Acc: 0.939 | Prec: 0.512 | Recall: 0.449 | n=788
+    Group 1      | Acc: 0.900 | Prec: 0.273 | Recall: 0.300 | n=300
+    Disparate Impact Ratio: 1.043 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+   Age Analysis:
+    Middle       | Acc: 0.915 | Prec: 0.521 | Recall: 0.481 | n=590
+    Old          | Acc: 0.898 | Prec: 0.200 | Recall: 0.222 | n=147
+    Young        | Acc: 0.963 | Prec: 0.143 | Recall: 0.125 | n=351
+    Disparate Impact Ratio: 0.950 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+Logistic Regression:
+--------------------------------------------------------------------------------
+
+   Gender Analysis:
+    Group 0      | Acc: 0.869 | Prec: 0.292 | Recall: 0.776 | n=788
+    Group 1      | Acc: 0.747 | Prec: 0.167 | Recall: 0.700 | n=300
+    Disparate Impact Ratio: 1.164 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+   Age Analysis:
+    Middle       | Acc: 0.831 | Prec: 0.318 | Recall: 0.808 | n=590
+    Old          | Acc: 0.687 | Prec: 0.122 | Recall: 0.667 | n=147
+    Young        | Acc: 0.906 | Prec: 0.121 | Recall: 0.500 | n=351
+    Disparate Impact Ratio: 0.917 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+Neural Network:
+--------------------------------------------------------------------------------
+
+   Gender Analysis:
+    Group 0      | Acc: 0.863 | Prec: 0.285 | Recall: 0.796 | n=788
+    Group 1      | Acc: 0.773 | Prec: 0.184 | Recall: 0.700 | n=300
+    Disparate Impact Ratio: 1.116 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+   Age Analysis:
+    Middle       | Acc: 0.836 | Prec: 0.323 | Recall: 0.788 | n=590
+    Old          | Acc: 0.714 | Prec: 0.163 | Recall: 0.889 | n=147
+    Young        | Acc: 0.895 | Prec: 0.108 | Recall: 0.500 | n=351
+    Disparate Impact Ratio: 0.934 [✓ FAIR]
+    (Fair range: 0.80 - 1.25)
+
+================================================================================
+FAIRNESS SUMMARY
+================================================================================
+Model                Gender Fair?    Age Fair?      
+--------------------------------------------------------------------------------
+Random Forest        ✓ Yes           ✓ Yes          
+XGBoost              ✓ Yes           ✓ Yes          
+Logistic Regression  ✓ Yes           ✓ Yes          
+Neural Network       ✓ Yes           ✓ Yes          
+================================================================================
